@@ -2,30 +2,30 @@
 
 <h1 class="hide">低耗電無線感測網路 101：IoT broker 實戰教學</h1>
 
+> 在 real-time dashboard 的底層，IoT 裝置如何傳送 sensor data 到雲端，並串接 web frontend 呢？這門課程，使用 Web of Things 架構，以及 WebSockets、CoAP 與 Web of Things 通訊協定，來培析 IoT network 的基礎技術，並了解如何建立低耗電的無線感測器網路（Wireless Sensor Networks）
+
 ### 課程大綱
 
 * 第 1 課：IoT Network 架構
  * Star Network 架構
  * Ad hoc 架構
  * 認識 IoT broker
-
 * 第 2 課：IoT broker 實作與部署
  * 使用 CoAP/WebSocket 通訊協定
  * 實作 Routing M2M (Machine-to-Machine)
  * Azure 的雲端佈
-
 * 第 3 課：IoT broker 與 CoAP 協定進階
  * CoAP 與 REST 架構比較
  * CoAP 封包解析
  * 低耗電與 Constrained Device 技術解析
 
-## 理念
+### 理念
 
 這門課程是「IoT Network」的入門課程，講師以手把手帶你實作一個完整的「低耗電無線感測網路」。如果你從未學習過「IoT 網路架構」，這門課對是你必修的課程。
 
 無線感測網路（Wireless Sensor Network）最基本的網路拓璞稱為 Star Network（星狀網路），另一個重要的網路拓璞為 Wireless Ad hoc Network（WANET）。這門課帶你從認識 Star Network 開始，動搭建 Star Network 的無線感測網路。
 
-## 課程說明
+### 課程說明
 
 Star Network 是無線感測網路的基本架構，而 Star Network 架構裡，最重要的硬體稱為 Gateway Sensor Node，在現今的 IoT 網路中，Gateway Sensor Node 也稱為 IoT broker。這個觀念就是這門課程的名稱由來。這門課程會以 Star Network 建構無線感測網路，並且詳細剖析 ioT broker 的設計與實作。
 
