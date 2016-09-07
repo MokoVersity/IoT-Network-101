@@ -5,10 +5,19 @@
 ### 課程大綱
 
 * 第 1 課：IoT Network 架構
+ * Star Network 架構
+ * Ad hoc 架構
+ * 認識 IoT broker
 
-* 第 2 課：IoT server 實作與部署
- 
-* 第 3 課：Personal IoT 實作
+* 第 2 課：IoT broker 實作與部署
+ * 使用 CoAP/WebSocket 通訊協定
+ * 實作 Routing M2M (Machine-to-Machine)
+ * Azure 的雲端佈
+
+* 第 3 課：IoT broker 與 CoAP 協定進階
+ * CoAP 與 REST 架構比較
+ * CoAP 封包解析
+ * 低耗電與 Constrained Device 技術解析
 
 ## 理念
 
@@ -40,6 +49,14 @@ Figure-2: Star Network (Source: https://en.wikipedia.org/wiki/Star_network. Lice
 此外，本課程將使用 WebSocket/MQTT/HTTP/CoAP 協定來進行資料傳輸與硬體串接，並分析這些通訊協定的差異，以及 CoAP 如何針對 constrained devices 實現低耗電的技術原理。
 
 ### 學習藍圖
+
+根據以上的說明，本課程將帶你實作一個完整的 Wireless Sensor Network。如下圖所示：
+
+* 使用 ESP8266 擷取 real-time 溫度數值
+* 使用 ESp8266 擷取 real-time 空氣品質數值
+* 以 CoAP 協定串接 IoT broker (Proxy)
+* 以 WebSocket 與 HTTP 協定串接 Azure 雲端
+* 整合雲端與 Web App
 
 ![](https://cloud.githubusercontent.com/assets/1126021/13871103/b0f09960-ed1c-11e5-810b-33f4aa8f0e70.png)
 
