@@ -3,13 +3,19 @@
 
 ### 課程大綱
 
-* 第 1 課：React 101 入門實作
+* 第 1 課：IoT Network 架構
 
-* 第 2 課：React 101 基礎與理論架構
+* 第 2 課：IoT server 實作與部署
  
-* 第 3 課：React 與 Flux 架構模式演練
+* 第 3 課：Personal IoT 實作
 
 ### 學習藍圖
+
+![](https://cloud.githubusercontent.com/assets/1126021/13871103/b0f09960-ed1c-11e5-810b-33f4aa8f0e70.png)
+
+* *架構面*：你將認識 Web of Things、Broker Architecture 與 Proxy Gateway 總計 3 大架構
+* *技能面*：你將學習如何修改 IoT server 程式碼，加入新功能
+* *實作面*：你將能搭建一個 Personal IoT 環境
 
 ### 課程說明
 
