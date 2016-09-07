@@ -10,19 +10,48 @@
  
 * 第 3 課：Personal IoT 實作
 
+## 理念
+
+這門課程是「IoT Network」的入門課程，講師以手把手帶你實作一個完整的「低耗電無線感測網路」。如果你從未學習過「IoT 網路架構」，這門課對是你必修的課程。
+
+無線感測網路（Wireless Sensor Network）最基本的網路拓璞稱為 Star Network（星狀網路），另一個重要的網路拓璞為 Wireless Ad hoc Network（WANET）。這門課帶你從認識 Star Network 開始，動搭建 Star Network 的無線感測網路。
+
+## 課程說明
+
+Star Network 是無線感測網路的基本架構，而 Star Network 架構裡，最重要的硬體稱為 Gateway Sensor Node，在現今的 IoT 網路中，Gateway Sensor Node 也稱為 IoT broker。這個觀念就是這門課程的名稱由來。這門課程會以 Star Network 建構無線感測網路，並且詳細剖析 ioT broker 的設計與實作。
+
+WSN (Wireless Sensor Network) 是由 *nodes* 所構成的網路架構[2]。在 Sensor Network 裡的 *node* 負責收集資訊，並與其它 *node* 溝通[2]。因此，這個專案要解決的問題有 2 個：
+
+* 如何收集並傳送 sensor data
+* node 與 node 間如何溝通，也就是 M2M (machine-to-mahchine) 或 P2P (peer-to-peer) 技術
+
+![](https://upload.wikimedia.org/wikipedia/commons/2/21/WSN.svg)
+
+圖 1: Wireless Sensor Network (Source: https://en.wikipedia.org/wiki/Wireless_sensor_network. License: Public Domain)
+
+Wireless sensor network 的拓璞 (topologies) 之一，就是 Star Network[3]。在 Star Network (星狀網路) 架構中，每一個 *node* 都連接到 Gateway Sensor Node。在 Star Network 裡的 node 會將收集到的資訊，傳送給 Gateway Sensor Node。這個專案將使用 Star Network 架構，因此，除了上述的 2 個問題外，還要再解決另一個問題：
+
+* 佈署 Gateway Sensor Node
+
+![](https://upload.wikimedia.org/wikipedia/commons/8/84/Star_Topology.png)
+
+Figure-2: Star Network (Source: https://en.wikipedia.org/wiki/Star_network. License: CC BY-SA 3.0)
+
+此外，本課程將使用 WebSocket/MQTT/HTTP/CoAP 協定來進行資料傳輸與硬體串接，並分析這些通訊協定的差異，以及 CoAP 如何針對 constrained devices 實現低耗電的技術原理。
+
 ### 學習藍圖
 
 ![](https://cloud.githubusercontent.com/assets/1126021/13871103/b0f09960-ed1c-11e5-810b-33f4aa8f0e70.png)
 
-* *架構面*：你將認識 Web of Things、Broker Architecture 與 Proxy Gateway 總計 3 大架構
-* *技能面*：你將學習如何修改 IoT server 程式碼，加入新功能
-* *實作面*：你將能搭建一個 Personal IoT 環境
+* *架構面*：你將認識 Web of Things、Star Network、IoT Gateway 與 IoT broker 的架構觀念
+* *實作面*：你將學習如何修改 IoT broker 的程式碼，並加入解析通訊協定，以及 M2M (machine-to-mchaine) 的新功能
+* *技能面*：你將會學習 Azure 的雲端佈局、修改 Node.js 範例程式碼、修改 React 前端範例程式
 
-### 課程說明
-
-### 專題演練
- 
 ### 課程對象
+
+* 對 IoT 網路架構規劃有興趣的初學者
+* 對使用 Node.js 開發 IoT broker 與 gateway 有興趣的初學者
+* 想了解通訊協定如何實現低耗電的技術人員
 
 ### 講師團隊
 
