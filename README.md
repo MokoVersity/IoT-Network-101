@@ -1,19 +1,19 @@
-<p class="lead">課程內容正在編修中，將於 9 月 9 日正式上線</p>
-
 <h1 class="hide">低耗電無線感測網路 101：IoT broker 實戰教學</h1>
 
-> 在 real-time dashboard 的底層，IoT 裝置如何傳送 sensor data 到雲端，並串接 web frontend 呢？這門課程，使用 Web of Things 架構，以及 WebSockets、CoAP 與 Web of Things 通訊協定，來培析 IoT network 的基礎技術，並了解如何建立低耗電的無線感測器網路（Wireless Sensor Networks）
+<p class="lead">你將在課堂中，從零開始獨立完成 IoT server 的實作，並同時佈署離線版與雲端版。課堂將步驟式引導：認識網路拓璞，並為 IoT server 加入 Gateway 與 Broker 的架構，讓物聯網更易於串接 Mobile App。此外，也會認識 CoAP 協定與 HTTP/WebSocket 的差異，學會如何撰寫更省電的 IoT 軟體。</p>
 
 ### 課程大綱
+
+> 在 real-time dashboard 的底層，IoT 裝置如何傳送 sensor data 到雲端，並串接 web frontend 呢？這門課程，使用 Web of Things 架構，以及 WebSockets、CoAP 與 Web of Things 通訊協定，來培析 IoT network 的基礎技術，並了解如何建立低耗電的無線感測器網路（Wireless Sensor Networks）
 
 * 第 1 課：IoT Network 架構
  * Star Network 架構
  * Ad hoc 架構
- * 認識 IoT broker
+ * 認識 IoT broker<br /><br />
 * 第 2 課：IoT broker 實作與部署
  * 使用 CoAP/WebSocket 通訊協定
  * 實作 Routing M2M (Machine-to-Machine)
- * Azure 的雲端佈
+ * Azure 的雲端佈<br /><br />
 * 第 3 課：IoT broker 與 CoAP 協定進階
  * CoAP 與 REST 架構比較
  * CoAP 封包解析
