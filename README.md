@@ -13,7 +13,7 @@
  * 認識 IoT broker<br /><br />
 * 第 2 課：IoT broker 實作與部署
  * 使用 CoAP/WebSocket 通訊協定
- * 實作 Routing M2M (Machine-to-Machine)
+ * 基於 Broker 架構與 Routing 觀念實作 M2M (Machine-to-Machine)
  * Azure 的雲端佈<br /><br />
 * 第 3 課：IoT broker 與 CoAP 協定進階
  * CoAP 與 REST 架構比較
