@@ -7,7 +7,7 @@
 
 > 在 real-time dashboard 的底層，IoT 裝置如何傳送 sensor data 到雲端，並串接 web frontend 呢？這門課程，使用 Web of Things 架構，以及 WebSockets、CoAP 與 Web of Things 通訊協定，來培析 IoT network 的基礎技術，並了解如何建立低耗電的無線感測器網路（Wireless Sensor Networks）。
 
-有別以傳統的 M2M 做法，本課程將以 Web of Things 的觀念（Broker 架構與 URL Routing 觀念），來實作 M2M (Machine-to-Machine)。
+有別於傳統的 M2M 做法，本課程將以 Web of Things 的觀念（Broker 架構與 URL Routing 觀念），來實作 M2M (Machine-to-Machine)。
 
 * 第 1 課：IoT Network 拓璞架構
  * Wireless Star Network 架構
