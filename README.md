@@ -1,6 +1,7 @@
-<h1 class="hide">低耗電無線感測網路 101：IoT broker 實戰教學</h1>
 
-<p class="lead">你將在課堂中，從零開始獨立完成 IoT server 的實作，並同時佈署離線版與雲端版。課堂將步驟式引導：認識網路拓璞，並為 IoT server 加入 Gateway 與 Broker 的架構，讓物聯網更易於串接 Mobile App。此外，也會認識 CoAP 協定與 HTTP/WebSocket 的差異，學會如何撰寫更省電的 IoT 軟體。</p>
+<p class="lead">你將在課堂中，從零開始獨立完成 IoT server 的實作，並同時佈署離線版與雲端版。</p>
+
+課堂將步驟式引導：認識網路拓璞，並為 IoT server 加入 Gateway 與 Broker 的架構，讓物聯網更易於串接 Mobile App。此外，也會認識 CoAP 協定與 HTTP/WebSocket 的差異，學會如何撰寫更省電的 IoT 軟體。
 
 ### 課程大綱
 
