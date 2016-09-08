@@ -28,7 +28,7 @@
 
 ### 課程說明
 
-Star Network 是無線感測網路的基本架構，而 Star Network 架構裡，最重要的硬體稱為 Gateway Sensor Node，在現今的 IoT 網路中，Gateway Sensor Node 也稱為 IoT broker。這個觀念就是這門課程的名稱由來。這門課程會以 Star Network 建構無線感測網路，並且詳細剖析 ioT broker 的設計與實作。
+Star Network 是無線感測網路的基本架構，而 Star Network 架構裡，最重要的硬體稱為 Gateway Sensor Node，在現今的 IoT 網路中，Gateway Sensor Node 也稱為 IoT broker。<span style="border-bottom: 1px solid #da443e;;">這個觀念就是這門課程的名稱由來</span>。這門課程會以 Star Network 建構無線感測網路，並且詳細剖析 ioT broker 的設計與實作。
 
 WSN (Wireless Sensor Network) 是由 *nodes* 所構成的網路架構[2]。在 Sensor Network 裡的 *node* 負責收集資訊，並與其它 *node* 溝通[2]。因此，這個專案要解決的問題有 2 個：
 
